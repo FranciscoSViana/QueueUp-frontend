@@ -1,0 +1,31 @@
+@media only screen and (min-width : 1200px) {
+    .carousel-inner {
+        width: 100%;
+        margin: 0 auto;
+        height: 360px;
+        text-align: center;
+    }
+    .carousel-item img{
+        width: 70%;
+    }
+     
+    .item-dois{
+        background-color: #ec1e2b;
+        width: 100%;
+    }
+    .item-tres{
+        background-color: #74c797;
+        width: 100%;
+    }
+    .item-um{
+        background-color:#ebebeb;
+        width: 100%;
+    }
+ 
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .carousel-item img {
+        width: 100%;
+    }
+}
+

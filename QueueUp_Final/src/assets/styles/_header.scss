@@ -1,0 +1,128 @@
+#header {
+  padding: 20px 0;
+  .SRL_Logo {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+    img {
+      width: 100px;
+      height: auto;
+      @media (max-width: 768px) {
+        width: 200px;
+        height: auto;
+      }
+    }
+  }
+  nav {
+    margin-left: auto;
+    display: block;
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 10px;
+      padding: 10px;
+      @media (max-width: 768px) {
+        margin: 20px auto;
+      }
+      li {
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        @media (max-width: 768px) {
+          margin: 0 auto;
+        }
+        &:last-child {
+          margin-left: 5px;
+          @media (max-width: 768px) {
+            margin: 0 auto;
+          }
+        }
+        a {
+          color: rgb(0, 0, 0);
+          font-weight: 700;
+        }
+
+        
+      }
+    }
+  }
+
+  .login {
+    color: rgb(113, 182, 147);
+    font-weight: 700;
+    margin-left: 10px;
+  }
+
+  .cadastro-cliente {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgb(115, 164, 253);
+    font-weight: 700;
+  }
+
+  .cadastro-restaurante {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgb(255, 66, 138);
+    font-weight: 700;
+  }
+
+  // .SRL_CTA {
+  //   margin-bottom: 10px;
+  //   .SRL_CTA-OpenLightbox {
+  //     display: block;
+  //     margin-left: 10px;
+  //     @media (max-width: 768px) {
+  //       margin: 0 auto;
+  //     }
+  //     font-family: "Lato", sans-serif;
+  //     font-weight: 600;
+  //     color: rgb(255, 66, 138);
+  //     background-color: white;
+  //     padding: 5px 14px;
+  //     border-color: rgb(255, 66, 138);
+  //     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  //     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  //     @media (max-width: 768px) {
+  //       font-size: 0.875rem;
+  //       padding: 7.5px;
+  //     }
+  //     &:hover {
+  //       color: white;
+  //       background-color: rgb(255, 66, 138);
+  //       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+  //         0 10px 10px rgba(0, 0, 0, 0.22);
+  //     }
+  //   }
+
+    // .SRL_CTA-OpenLightbox2 {
+    //   display: block;
+    //   margin-left: 10px;
+    //   @media (max-width: 768px) {
+    //     margin: 0 auto;
+    //   }
+    //   font-family: "Lato", sans-serif;
+    //   font-weight: 600;
+    //   color: rgb(113, 182, 147);
+    //   background-color: white;
+    //   padding: 5px 5px;
+    //   border-color: rgb(113, 182, 147);
+    //   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    //   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    //   @media (max-width: 768px) {
+    //     font-size: 0.875rem;
+    //     padding: 7.5px;
+    //   }
+    //   &:hover {
+    //     color: white;
+    //     background-color: rgb(113, 182, 147);
+    //     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    //       0 10px 10px rgba(0, 0, 0, 0.22);
+    //   }
+    // }
+    // }
+}
