@@ -9,3 +9,4 @@ import "react-app-polyfill/stable";
 import "./index.scss";
 
 ReactDOM.render(<App />, document.getElementById('root'));
+serviceWorker.unregister();
