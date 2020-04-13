@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".MainActivity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logoqueueup"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/iconuser"
+                android:drawablePadding="10dp"
+                android:hint="CPF/CNPJ"
+                android:inputType="number"
+                android:textColorHint="#AD000000"
+                android:textColor="#AD000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_edit_background"
+                android:padding="10dp"/>
+            <EditText
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/trava"
+                android:drawablePadding="10dp"
+                android:hint="Senha"
+                android:textColor="#AD000000"
+                android:textColorHint="#AD000000"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_edit_background"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esqueceu sua senha ?"
+                android:textColor="#AD000000"
+                android:padding="10dp"
+                android:layout_gravity="end"/>
+
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:text="Entrar"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:onClick="irTelaRestaurante"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
