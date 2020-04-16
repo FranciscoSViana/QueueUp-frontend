@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-    fun irTelaRestaurante(v: View){
-        val telaRestaurante = Intent(this, MainRestaurante::class.java)
-        startActivity(telaRestaurante)
+    fun irTelaMaps(v: View){
+        val tlMaps = Intent(this, MapsActivity::class.java)
+        startActivity(tlMaps)
     }
 }

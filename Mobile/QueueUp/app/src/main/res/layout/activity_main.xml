@@ -73,7 +73,7 @@
                 android:text="Entrar"
                 android:textAllCaps="false"
                 android:textSize="16sp"
-                android:onClick="irTelaRestaurante"/>
+                android:onClick="irTelaMaps"/>
 
         </LinearLayout>
     </ScrollView>
