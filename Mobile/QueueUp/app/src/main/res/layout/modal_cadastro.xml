@@ -20,11 +20,11 @@
     <GridLayout
         android:id="@+id/modalGrid"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="220dp"
         android:orientation="vertical">
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             app:cardCornerRadius="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
@@ -34,8 +34,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"
                     android:src="@drawable/ic_vecto_restaurante" />
@@ -43,8 +43,8 @@
                     android:id="@+id/tvModalRestaurante"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
-                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
                     android:padding="5dp"
                     android:text="Restaurante"
                     android:textColor="#AD000000" />
@@ -52,20 +52,18 @@
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             app:cardCornerRadius="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp">
-
             <LinearLayout
                 android:background="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
-                android:layout_height="100dp">
-
+                android:layout_height="80dp">
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"
                     android:src="@drawable/ic_person" />
@@ -73,8 +71,8 @@
                     android:id="@+id/tvModalUsuario"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
-                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
                     android:padding="5dp"
                     android:text="Usuário"
                     android:textColor="#AD000000"
@@ -82,7 +80,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -92,7 +89,6 @@
             android:id="@+id/btnModalCadastrar"
             android:layout_width="190dp"
             android:layout_height="40dp"
-            android:layout_margin="10dp"
             android:background="@drawable/button_background"
             android:text="Escolher"
             android:textAllCaps="false" />
