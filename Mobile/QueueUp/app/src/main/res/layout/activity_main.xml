@@ -73,7 +73,7 @@
                 android:text="Entrar"
                 android:textAllCaps="false"
                 android:textSize="16sp"
-                android:onClick="irTelaMaps"/>
+                android:onClick="irTelaRestaurante"/>
             <Button
                 android:id="@+id/btnCadastrar"
                 android:layout_marginStart="20dp"
