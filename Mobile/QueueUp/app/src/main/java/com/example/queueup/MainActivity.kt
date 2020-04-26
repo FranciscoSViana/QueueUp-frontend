@@ -43,5 +43,9 @@ class MainActivity : AppCompatActivity() {
          val cadastrousuario = Intent(this, Cadastro_usuario::class.java)
          startActivity(cadastrousuario)
      }
+    fun irCadastroRestaurante(v: View){
+        val cadastrorestaurante = Intent(this, Cadastro_Restaurante::class.java)
+        startActivity(cadastrorestaurante)
+    }
 
 }
