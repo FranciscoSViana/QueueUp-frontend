@@ -9,85 +9,87 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
 
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/logoqueueup"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logoqueueup" />
 
             <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/login_edit_background"
                 android:drawableStart="@drawable/iconuser"
                 android:drawablePadding="10dp"
                 android:hint="CPF/CNPJ"
                 android:inputType="number"
-                android:textColorHint="#AD000000"
+                android:padding="10dp"
                 android:textColor="#AD000000"
+                android:textColorHint="#AD000000" />
+
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/login_edit_background"
-                android:padding="10dp"/>
-            <EditText
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/login_edit_background"
                 android:drawableStart="@drawable/trava"
                 android:drawablePadding="10dp"
                 android:hint="@string/app_senha"
-                android:textColor="#AD000000"
-                android:textColorHint="#AD000000"
                 android:inputType="textPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/login_edit_background"
-                android:padding="10dp"/>
+                android:padding="10dp"
+                android:textColor="#AD000000"
+                android:textColorHint="#AD000000" />
+
             <TextView
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_esqsenha"
-                android:textColor="#AD000000"
-                android:padding="10dp"
                 android:layout_gravity="end"
-                />
-
-            <Button
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="@string/app_esqsenha"
+                android:textColor="#AD000000" />
+
+            <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:background="@drawable/button_background"
+                android:onClick="irTelaRestaurante"
                 android:text="@string/app_entrar"
                 android:textAllCaps="false"
                 android:textSize="16sp"
-                android:onClick="irTelaRestaurante"/>
+                />
 
             <Button
                 android:id="@+id/btnCadastrar"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:layout_margin="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#AD000000"
+                android:layout_margin="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:background="@drawable/login_edit_background"
                 android:text="@string/app_cad"
                 android:textAllCaps="false"
-                android:textSize="16sp"  />
+                android:textColor="#AD000000"
+                android:textSize="16sp" />
 
         </LinearLayout>
     </ScrollView>

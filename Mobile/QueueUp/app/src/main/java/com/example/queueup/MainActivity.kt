@@ -1,6 +1,8 @@
 package com.example.queueup
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,14 +13,38 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    var preferencias: SharedPreferences? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        preferencias = getPreferences(Context.MODE_PRIVATE)
+
+        etUsuario.setText(preferencias?.getString("loginUsuario", ""))
+
+        fun salvarDados(v: View) {
+
+            val editor = preferencias?.edit()
+
+            editor?.putString("loginUsuario", etUsuario.text.toString())
+
+            editor?.commit()
+        }
+
+        fun limparDados(v: View) {
+            val editor = preferencias?.edit()
+
+            editor?.clear()
+            editor?.commit()
+        }
+
+
         //button click to show modal
         btnCadastrar.setOnClickListener() {
             val mDialogView = LayoutInflater.from(this).inflate(R.layout.modal_cadastro, null);
             val mBuilder = AlertDialog.Builder(this)
-                .setView(mDialogView)
+                    .setView(mDialogView)
             //show dialog
             val mAlertDialog = mBuilder.show()
             //close modal
