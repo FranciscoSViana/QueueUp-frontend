@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QueueUp</string>
+    <string name="app_senha">Password</string>
+    <string name="app_entrar">Login</string>
+    <string name="app_cad">Register</string>
+    <string name="app_esqsenha">Forgot your password</string>
+    <string name="app_usuario">User</string>
+    <string name="app_restaurante">Restaurant</string>
+    <string name="app_nome">Name</string>
+    <string name="app_cadastro">Register</string>
+    <string name="app_estado">State</string>
+    <string name="app_tel">Telephone</string>
+    <string name="app_nfantasia">Company Name</string>
+    <string name="app_rsocial">Social Reason</string>
+    <string name="app_cidade">City</string>
+    <string name="app_end">Address</string>
+    <string name="app_especialidade">Specialty</string>
+    <string name="app_numero">Number</string>
+    <string name="app_mesa">Clear tables</string>
+    <string name="app_fila">Monitor queue</string>
+    <string name="app_horario">schedule: 00am-00pm</string>
+</resources>

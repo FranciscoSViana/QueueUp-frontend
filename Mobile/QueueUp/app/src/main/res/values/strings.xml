@@ -1,4 +1,27 @@
 <resources>
+    // MainActivity - Login
     <string name="app_name">QueueUp</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="app_senha">Senha</string>
+    <string name="app_entrar">Entrar</string>
+    <string name="app_cad">Cadastre-se</string>
+    <string name="app_esqsenha">Esqueceu sua senha?</string>
+    //PopUp
+    <string name="app_usuario">Usuário</string>
+    <string name="app_restaurante">Restaurante</string>
+    //Cadastro Usuario
+    <string name="app_nome">Nome</string>
+    <string name="app_cadastro">Cadastrar</string>
+    //Cadastro Restaurante
+    <string name="app_rsocial">Razão Social</string>
+    <string name="app_nfantasia">Nome Fantasia</string>
+    <string name="app_tel">Telefone</string>
+    <string name="app_estado">Estado</string>
+    <string name="app_cidade">Cidade</string>
+    <string name="app_end">Endereço</string>
+    <string name="app_numero">Numero</string>
+    <string name="app_especialidade">Especialidade</string>
+    //Main reustaurante
+    <string name="app_mesa">liberar Mesas</string>
+    <string name="app_fila">Monitorar Fila</string>
+    <string name="app_horario">Horário: 00am-00pm</string>
 </resources>

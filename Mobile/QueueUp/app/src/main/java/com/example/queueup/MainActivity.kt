@@ -23,27 +23,40 @@ class MainActivity : AppCompatActivity() {
             val mAlertDialog = mBuilder.show()
             //close modal
             val close: ImageView = mDialogView.findViewById(R.id.imgExit)
-            close.setOnClickListener{
+            close.setOnClickListener {
                 mAlertDialog.dismiss()
             }
         }
     }
 
-    fun irTelaMaps(v: View){
-       val tlMaps = Intent(this, MapsActivity::class.java)
-        startActivity(tlMaps)
+    //Funções de login e reset de senha
+    fun loginUser(v: View) {
+        val login = Intent(this, MainActivity::class.java)
+        startActivity(login)
     }
 
-     //test functionality
-     fun irTelaRestaurante(v: View){
-         val telaRestaurante = Intent(this, MainRestaurante::class.java)
-         startActivity(telaRestaurante)
-     }
-     fun irCadastroUsuario(v: View){
-         val cadastrousuario = Intent(this, Cadastro_usuario::class.java)
-         startActivity(cadastrousuario)
-     }
-    fun irCadastroRestaurante(v: View){
+    /* fun resetUser(v: View) {
+         val reset = Intent(this, ResetActivity::class.java)
+         startActivity(reset)
+     } */
+
+    /* fun irTelaMaps(v: View){
+     val tlMaps = Intent(this, MapsActivity::class.java)
+     startActivity(tlMaps)
+     } */
+
+    //test functionality
+    fun irTelaRestaurante(v: View) {
+        val telaRestaurante = Intent(this, MainRestaurante::class.java)
+        startActivity(telaRestaurante)
+    }
+
+    fun irCadastroUsuario(v: View) {
+        val cadastrousuario = Intent(this, Cadastro_usuario::class.java)
+        startActivity(cadastrousuario)
+    }
+
+    fun irCadastroRestaurante(v: View) {
         val cadastrorestaurante = Intent(this, Cadastro_Restaurante::class.java)
         startActivity(cadastrorestaurante)
     }

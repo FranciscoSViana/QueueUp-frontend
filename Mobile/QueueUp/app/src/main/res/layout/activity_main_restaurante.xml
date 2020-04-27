@@ -35,7 +35,7 @@
                 android:drawableStart="@drawable/ic_timer"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
-                android:text="Horário: 00am-00pm"
+                android:text="@string/app_horario"
                 android:textColor="#AD000000"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -52,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/labels"
         android:background="@drawable/button_background"
-        android:text="Monitorar fila"
+        android:text="@string/app_fila"
         android:textAllCaps="false"
         android:textSize="16sp" />
 
@@ -66,7 +66,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/btnMonitoraFila"
         android:background="@drawable/login_edit_background"
-        android:text="Liberar Mesas"
+        android:text="@string/app_mesa"
         android:textColor="#AD000000"
         android:textAllCaps="false"
         android:textSize="16sp" />

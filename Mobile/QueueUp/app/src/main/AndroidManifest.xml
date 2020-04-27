@@ -15,13 +15,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Cadastro_Restaurante"
-            android:windowSoftInputMode="adjustResize">
-
-        </activity>
+        <activity android:name=".ResetActivity"></activity>
+        <activity
+            android:name=".Cadastro_Restaurante"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Cadastro_usuario"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -34,9 +34,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
         <activity
             android:name=".MainRestaurante"
             android:theme="@style/MainRestaurantePage" />

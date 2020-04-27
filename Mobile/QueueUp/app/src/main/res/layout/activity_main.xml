@@ -46,7 +46,7 @@
                 android:layout_marginTop="20dp"
                 android:drawableStart="@drawable/trava"
                 android:drawablePadding="10dp"
-                android:hint="Senha"
+                android:hint="@string/app_senha"
                 android:textColor="#AD000000"
                 android:textColorHint="#AD000000"
                 android:inputType="textPassword"
@@ -59,10 +59,11 @@
                 android:layout_marginEnd="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Esqueceu sua senha ?"
+                android:text="@string/app_esqsenha"
                 android:textColor="#AD000000"
                 android:padding="10dp"
-                android:layout_gravity="end"/>
+                android:layout_gravity="end"
+                />
 
             <Button
                 android:layout_marginStart="20dp"
@@ -70,10 +71,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_background"
-                android:text="Entrar"
+                android:text="@string/app_entrar"
                 android:textAllCaps="false"
                 android:textSize="16sp"
                 android:onClick="irTelaRestaurante"/>
+
             <Button
                 android:id="@+id/btnCadastrar"
                 android:layout_marginStart="20dp"
@@ -83,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#AD000000"
                 android:background="@drawable/login_edit_background"
-                android:text="Cadastre-se"
+                android:text="@string/app_cad"
                 android:textAllCaps="false"
                 android:textSize="16sp"  />
 
