@@ -49,6 +49,7 @@ const App = () => (
           <Route path="/contato/" component={Contato} />
           <Route path="/login/" component={Login} />
           <Route path="/cadastro-restaurante" component={CadastroRestaurante} />
+
           <Route path="/cadastro-cliente" component={CadastroCliente} />
         </BrowserRouter>
       </div>

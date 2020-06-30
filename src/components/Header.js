@@ -35,15 +35,15 @@ const Header = props => {
 
 
                 <li>
-                  <a className="cadastro-restaurante" href="/cadastro-restaurante/">Cadastro Restaurante</a>
+                  <Link to="/cadastro-restaurante/">Cadastro Restaurante</Link>
                 </li>
 
                 <li>
-                  <a className="cadastro-cliente" href="/cadastro-cliente/">Cadastro Usuário</a>
+                  <Link to="/cadastro-cliente/">Cadastro Usuário</Link>
                 </li>
 
                 <li>
-                  <a className="login" href="/Login/">Login</a>
+                  <Link to="/Login/">Login</Link>
                 </li>
 
 
